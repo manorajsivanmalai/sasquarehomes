@@ -1,0 +1,44 @@
+.sticky-nav-wrap{
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateX(-50%);
+    z-index: 3;
+    height: 50px;
+    width: 50px;
+}
+.sticky-nav-ul{
+    list-style: none;
+    color: #fff;
+}
+.sticky-nav-ul li .link-s{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    color: #fff;
+    transition: 1s;
+
+}
+.sticky-nav-ul li .link-s:hover{
+    transform: scale(1.1);
+    transition: .7s;
+}
+.sticky-whatsapp .link-s{
+    background: #25d366;
+    border: 1px solid #25d366;
+}
+.sticky-phone .link-s{
+    background: #1a73e8;
+    border: 1px solid #1a73e8;
+}
+.sticky-instagram .link-s{
+    background: #e23367;
+    border: 1px solid #e23367;
+}
+.sticky-fb .link-s{
+    background: #1a73e8;
+    border: 1px solid #1a73e8;
+}

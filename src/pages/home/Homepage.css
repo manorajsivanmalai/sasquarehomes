@@ -1,0 +1,342 @@
+/*Homepage Section 1 Start*/
+.home-sec-1-banner {
+    background: url("../../assets/images/homepage/homebanner-1.jpg") top center;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+}
+
+.home-sec-1-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000b8;
+    z-index: -1;
+}
+
+.home-sec-1-inner {
+    padding: 235px 0;
+}
+
+.home-sec-1-inner h2 {
+    font-size: 47px;
+    font-weight: 700;
+}
+
+.home-sec-1-inner p {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+/*Homepage Section 1 End*/
+/*Homepage Section 2 Start*/
+.home-sec-2 {
+    background: #000000;
+    padding: 18px 2% 80px;
+    color: #fff;
+}
+
+.home-sec2-search-box {
+    background: var(--primary-color);
+    padding: 24px 30px 40px;
+    border-radius: 8px;
+    margin: 0 10%;
+}
+
+.form-label {
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.form-input {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 14px;
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+}
+
+.form-input:focus-visible {
+    border: 1px solid #c0c0c0;
+    outline: none;
+}
+
+.search-btn {
+    width: 100%;
+    background: #000000;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    padding: 7px 0;
+}
+
+.search-btn:hover {
+    background: #7A7A7A;
+}
+
+.home-search-row {
+    align-items: end;
+}
+
+.home-sec2-row {
+    padding: 50px 0;
+}
+
+.h-sec-2-title {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 1.5px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.h-sec-2-title::after {
+    content: "";
+    width: 40%;
+    height: 1.5px;
+    background: var(--color-green);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.home-sec2-row p {
+    margin: 30px 0;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+}
+
+.read-more-hom-sec2 {
+    text-transform: capitalize;
+    background: #046738;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin: 15px 0;
+}
+
+.read-more-hom-sec2 svg {
+    font-size: 21px;
+    font-weight: 900;
+}
+
+
+/*Homepage Section 2 End*/
+/*Homepage Section 3 Start*/
+.home-sec-3 {
+    padding: 40px 2%;
+    background: #f7f8f9;
+}
+
+.home-sec3-title {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/*Homepage Section 3 End*/
+/*Homepage Section 4 Start*/
+.home-sec-4{
+    background: #f5793a;
+    padding: 100px 0;
+}
+.home-sec4-inner-div{
+    position: relative;
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+.home-sec4-inner-div::after{
+    position: absolute;
+    content: "";
+    width: 45%;
+    height: 2px;
+    background: #fff;
+    bottom: 0;
+    left: 0;
+}
+.home-sec4-inner-div .home-sec4-title{
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+.home-sec4-inner-div .home-sec4-subtitle{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+}
+.home-sec4-inner-div .home-sec4-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+.hom-sec4-h{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.hom-sec4-form-wrap{
+    background: #fff;
+    width: 100%;
+    padding: 40px;
+}
+.sec4-form-title{
+    font-size: 30px;
+    font-weight: 400;
+}
+.sec4-form-din{
+    margin: 30px 0;
+}
+.hom-form-label{
+    font-size: 14px;
+    display: block;
+}
+.hom-form-input{
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 14px;
+    border: 1px solid #d7d7d7;
+    resize: none;
+}
+.hom-form-input:focus-visible{
+    outline: none;
+    border-color: blue;
+}
+.form-error{
+    font-size: 11px;
+    color: #ba0b0b;
+}
+.form-sumnit{
+    background: #046738;
+    border: 0;
+    padding: 15px 40px;
+    font-size: 14px;
+    color: #fff;
+}
+.form-sumnit:hover{
+    background: #f5793a;
+}
+/*Homepage Section 4 End*/
+/*Homepage Section 5 Start*/
+.home-sec-5{
+    padding: 70px 0;
+}
+.hom-sec5-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 50px 0;
+
+}
+.hom-sec5-flex .home-sec5-width{
+    width: 20%;
+    padding: 0 13px;
+}
+.hom-sec5-flex .home-sec5-width .hm-sec-5-btn{
+    width: 100%;
+    text-align: center;
+    margin: 30px 0 20px;
+    color: #fff;
+    padding: 5px 10px;
+}
+.hom-sec5-flex .home-sec5-width:nth-child(odd) .hm-sec-5-btn{
+    background: var(--primary-color);
+}
+.hom-sec5-flex .home-sec5-width:nth-child(even) .hm-sec-5-btn{
+    background: var(--color-green);
+
+}
+/*Homepage Section 5 End*/
+
+
+
+@media only screen and (max-width:767px){
+    .home-sec2-search-box{
+        margin: 0;
+    }
+    .home-search-row{
+        row-gap: 20px;
+    }
+    .hom-sec5-flex .home-sec5-width{
+        width: 100%;
+    }
+    .home-sec-1-inner h2{
+        font-size: 32px;
+    }
+    .home-sec-1-inner p{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .home-sec2-search-box{
+        margin: 0;
+    }
+    .hom-sec5-flex{
+        justify-content: start;
+    }
+    .hom-sec5-flex .home-sec5-width{
+        width: 33.3%;
+    }
+}
+
+
+
+
+/*Search box Dropdown Start*/
+.custom-select {
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+
+.select-box {
+    background: #f8f8f8;
+    border-radius: 5px;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 14px;
+    color: #000;
+}
+
+.dropdown {
+    position: absolute;
+    width: 100%;
+    background: white;
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.dropdown li {
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #000;
+}
+
+.dropdown li:hover {
+    background: #ddd;
+}
