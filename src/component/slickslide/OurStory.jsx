@@ -10,73 +10,73 @@ import client2 from "../../assets/images/homepage/ourclient/client-02.png"
 import client3 from "../../assets/images/homepage/ourclient/client-03.png"
 const OurStory = () => {
 
-   const slickSlider1=[
-           {
-               image:client1,
-               alt:"Slick Slide Image 1",
-               link:false
-           },
-           {
-               image:client2,
-               alt:"Slick Slide Image 1",
-               link:false
-           },
-           {
-               image:client3,
-               alt:"Slick Slide Image 1",
-               link:false
-           },
-           
-           {
-               image:client1,
-               alt:"Slick Slide Image 1",
-               link:false
-           },
-           {
-               image:client2,
-               alt:"Slick Slide Image 1",
-               link:false
-           },
-           {
-               image:client3,
-               alt:"Slick Slide Image 1",
-               link:false
-           },
-           
-           {
-               image:client1,
-               alt:"Slick Slide Image 1",
-               link:false
-           },
-           {
-               image:client2,
-               alt:"Slick Slide Image 1",
-               link:false
-           },
-           {
-               image:client3,
-               alt:"Slick Slide Image 1",
-               link:false
-           },
-           
-           {
-               image:client1,
-               alt:"Slick Slide Image 1",
-               link:false
-           },
-           {
-               image:client2,
-               alt:"Slick Slide Image 1",
-               link:false
-           },
-           {
-               image:client3,
-               alt:"Slick Slide Image 1",
-               link:false
-           },
-           
-          
-       ]
+    const slickSlider1 = [
+        {
+            image: client1,
+            alt: "Slick Slide Image 1",
+            link: false
+        },
+        {
+            image: client2,
+            alt: "Slick Slide Image 1",
+            link: false
+        },
+        {
+            image: client3,
+            alt: "Slick Slide Image 1",
+            link: false
+        },
+
+        {
+            image: client1,
+            alt: "Slick Slide Image 1",
+            link: false
+        },
+        {
+            image: client2,
+            alt: "Slick Slide Image 1",
+            link: false
+        },
+        {
+            image: client3,
+            alt: "Slick Slide Image 1",
+            link: false
+        },
+
+        {
+            image: client1,
+            alt: "Slick Slide Image 1",
+            link: false
+        },
+        {
+            image: client2,
+            alt: "Slick Slide Image 1",
+            link: false
+        },
+        {
+            image: client3,
+            alt: "Slick Slide Image 1",
+            link: false
+        },
+
+        {
+            image: client1,
+            alt: "Slick Slide Image 1",
+            link: false
+        },
+        {
+            image: client2,
+            alt: "Slick Slide Image 1",
+            link: false
+        },
+        {
+            image: client3,
+            alt: "Slick Slide Image 1",
+            link: false
+        },
+
+
+    ]
     const settings = {
         dots: false,
         infinite: true,
@@ -84,7 +84,7 @@ const OurStory = () => {
         slidesToShow: 5,
         slidesToScroll: 1,
         autoplay: true,
-        arrows: false ,
+        arrows: false,
         responsive: [
             {
                 breakpoint: 1125,
@@ -118,14 +118,14 @@ const OurStory = () => {
             }
         ]
     };
-    
+
     return (
         <>
             <div className="slider-container" id="cardsSlickSlide">
                 <Slider {...settings} >
                     {slickSlider1.map((item, index) => (
                         <div key={index} className="slide text-center">
-                            <img src={item.image}  />
+                            <img src={item.image} />
                         </div>
                     ))}
                 </Slider>
