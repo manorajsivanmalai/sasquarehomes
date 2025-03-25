@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import Slickhome1 from "../../component/slickslide/Slickhome1";
 import SlickSlidercard from "../../component/slickslide/SlickSlidercard";
 import OurStory  from "../../component/slickslide/OurStory";
+import Form from "../../component/form/Form";
 //images
 import slider1img1 from "../../assets/images/homepage/homeSlider1/slick-slide-1.png"
 import slider1img2 from "../../assets/images/homepage/homeSlider1/slick-slide-2.png"
@@ -139,7 +140,7 @@ const Homepage = () => {
 
             <section className="home-sec-4">
                 <div className="container">
-                    <div className="row">
+                    <div className="row align-items-center">
                         <div className="col-lg-7 col-md-6">
                             <div className="row">
                                 <div className="col-md-6 hom-sec4-h">
@@ -169,28 +170,7 @@ const Homepage = () => {
                         <div className="col-lg-5 col-md-6">
                             <div className="hom-sec4-form-wrap">
                                 <h2 className="sec4-form-title">Enquiry Now!</h2>
-
-                                <div className="sec4-form-din">
-                                    <label htmlFor="" className="hom-form-label">Your name</label>
-                                    <input type="text" className="hom-form-input" />
-                                    <div className="form-error">Err</div>
-                                </div>
-                                <div  className="sec4-form-din">
-                                    <label htmlFor="" className="hom-form-label">Your email</label>
-                                    <input type="mail" className="hom-form-input" />
-                                </div>
-                                <div className="sec4-form-din">
-                                    <label htmlFor="" className="hom-form-label">Your phone</label>
-                                    <input type="phone" className="hom-form-input" />
-                                </div >
-                                <div className="sec4-form-din">
-                                    <label htmlFor="" className="hom-form-label">Your message</label>
-                                    <textarea name="" id="" className="hom-form-input" rows="4"></textarea>
-                                </div>
-                                    
-                                <div>
-                                    <button className="form-sumnit">Submit</button>
-                                </div>
+                                <Form/>
                             </div>
                         </div>
                     </div>
