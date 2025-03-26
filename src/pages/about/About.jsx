@@ -1,10 +1,13 @@
 
+import Header from "../../component/header/Header"
 import "./About.css"
 
 const About = () => {
     return (
         <>
-            About
+            <div className="abt-sec-1">
+                <Header title="About Us" content="Your Premier Resource for Bangalore Real Estate" />
+            </div>
         </>
     )
 }

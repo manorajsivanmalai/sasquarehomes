@@ -1,0 +1,32 @@
+.contect-sec-2{
+    padding: 60px 0;
+}
+.contact-sec2-ft{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+}
+.contect-form-sec2 .form-sumnit{
+    background: #313636;
+}
+.contect-form-sec2 .form-sumnit:hover{
+    background: #4d68ff;
+}
+.contect-form-sec2 .hom-form-input:hover{
+    border-color: #313636;
+}
+.con-sec2-st{
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.con-sec2-st2{
+    font-size: 17px;
+}
+.con-sec2-c{
+    font-size: 16px;
+    font-weight: 400;
+}
+.con-sec-inner{
+    margin: 20px 0;
+}

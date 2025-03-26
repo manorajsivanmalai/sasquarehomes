@@ -63,7 +63,24 @@
 .foot-yt{
     background-color: #cd201f;
 }
-
+.footer-row-2{
+    position: relative;
+}
+.footer-row-2::after,
+.footer-row-2::before{
+    position: absolute;
+    width: 15%;
+    height: 3px;
+    background: #fff;
+    content: "";
+    top: -2px;
+}
+.footer-row-2::after{
+    right: 0;
+}
+.footer-row-2::before{
+    left: 0;
+}
 @media only screen and (max-width:767px){
     .footer-social-ul{
         justify-content: start;

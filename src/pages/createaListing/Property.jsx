@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Property.css"
-import Header from "../../component/header/Hearder"
+import Header from "../../component/header/Header"
 function Property() {
   return (
 <>
