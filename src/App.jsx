@@ -10,6 +10,7 @@ import Properties from "./pages/properties/Properties"
 import Navbar from "./component/navbar/Navbar"
 import Footer from "./component/footer/Footer"
 import Stickynav from "./component/stickynav/Stickynav"
+import Property from "./pages/createaListing/Property"
 import "./App.css"
 const App = () => {
     return (
@@ -22,6 +23,7 @@ const App = () => {
                     <Route path="/contact" element={<Contact/>} />
                     <Route path="/blog" element={<Blog/>} />
                     <Route path="/properties" element={<Properties/>} />
+                    <Route path="/list-your-property" element={<Property/>} />
                 </Routes>
             </main>
             <Footer/>

@@ -1,0 +1,32 @@
+
+.bg-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 376px;
+}
+.bg-content h1 {
+  color: #f46217;
+  font-size: 53px;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.cre-list-sec1 .header-title{
+  color: #f46217;
+
+}
+.content-wrapper h1{
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.content-wrapper p{
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+.form-details{
+    display: flex;
+    flex-direction: column;
+}

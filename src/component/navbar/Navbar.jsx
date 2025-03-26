@@ -30,7 +30,7 @@ const Navbar = () => {
                             </div>
                             <div className="col-lg-3 col-md-3 d-md-block d-none">
                                 <ul className="nav-ul-1-wrapper">
-                                    <li className="nav-item"><Link to="/" className="nav-btn">Create a Listing</Link></li>
+                                    <li className="nav-item"><Link to="/list-your-property" target="blank" className="nav-btn">Create a Listing</Link></li>
                                 </ul>
                             </div>
                             <div className="col-7 d-md-none d-flex justify-content-end">
