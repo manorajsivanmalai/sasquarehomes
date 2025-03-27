@@ -14,14 +14,18 @@
 
 .cre-list-sec1 .header-title{
   color: #f46217;
-
 }
 .content-wrapper h1{
     font-weight: 400;
+    font-size: 28px;
     text-transform: capitalize;
 }
+.underline{
+  border-top: 3px solid #f46217;
+  width: 100px;
+}
 .content-wrapper p{
-    font-size: 18px;
+    font-size: 15px;
     line-height: 26px;
     margin-bottom: 15px;
     font-weight: 300;
@@ -29,4 +33,22 @@
 .form-details{
     display: flex;
     flex-direction: column;
+    padding-bottom: 30px;
+}
+.form-details input{
+  padding: 13px 11px;
+}
+.crete-listing-button{
+  width: 200px;
+
+}
+.crete-listing-button button{
+  padding: 11px 13px;
+  color: #fff;
+  background-color: #046738;
+  transition: all 2s linear;
+}
+.crete-listing-button button:hover{
+  background-color: #f46217;
+
 }
